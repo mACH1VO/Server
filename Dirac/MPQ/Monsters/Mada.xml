@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<MonsterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Mada.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>M_Mada01_SM.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <UpPosition>1</UpPosition>
+  <Scale>2</Scale>
+  <LocaldirVectorX>0</LocaldirVectorX>
+  <LocaldirVectorY>0</LocaldirVectorY>
+  <LocaldirVectorZ>1</LocaldirVectorZ>
+  <SkeletalAnimInfoDataList>
+    
+    <SkeletalAnimInfoData>
+      <animType>Attack1</animType>
+      <initTimeSeconds>0</initTimeSeconds>
+      <endTimeSeconds>1.7</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+    <SkeletalAnimInfoData>
+      <animType>IdleEmotion1</animType>
+      <initTimeSeconds>1.7</initTimeSeconds>
+      <endTimeSeconds>4.4</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>IdlePeace</animType>
+      <initTimeSeconds>4.4</initTimeSeconds>
+      <endTimeSeconds>6.233</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Attack2</animType>
+      <initTimeSeconds>6233</initTimeSeconds>
+      <endTimeSeconds>7.866</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+    <SkeletalAnimInfoData>
+      <animType>Idle</animType>
+      <initTimeSeconds>7.866</initTimeSeconds>
+      <endTimeSeconds>9.566</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>GetHit1</animType>
+      <initTimeSeconds>7.866</initTimeSeconds>
+      <endTimeSeconds>10.3</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Die1</animType>
+      <initTimeSeconds>10.3</initTimeSeconds>
+      <endTimeSeconds>12.83</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Groggy1</animType>
+      <initTimeSeconds>12.83</initTimeSeconds>
+      <endTimeSeconds>15.1</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Run</animType>
+      <initTimeSeconds>15.1</initTimeSeconds>
+      <endTimeSeconds>15.95</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Skill1</animType>
+      <initTimeSeconds>16</initTimeSeconds>
+      <endTimeSeconds>18.46</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Walk</animType>
+      <initTimeSeconds>18.46</initTimeSeconds>
+      <endTimeSeconds>19.81</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+  </SkeletalAnimInfoDataList>
+</MonsterData>

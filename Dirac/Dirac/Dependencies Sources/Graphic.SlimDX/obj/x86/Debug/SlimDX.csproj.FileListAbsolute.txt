@@ -1,0 +1,15 @@
+E:\Coding\bulletSharp demos\src\bin\Debug\DemoFramework.SlimDX.dll
+E:\Coding\bulletSharp demos\src\bin\Debug\DemoFramework.SlimDX.pdb
+E:\Coding\bulletSharp demos\src\DemoFramework\Graphics\SlimDX\obj\x86\Debug\DemoFramework.SlimDX.dll
+E:\Coding\bulletSharp demos\src\DemoFramework\Graphics\SlimDX\obj\x86\Debug\DemoFramework.SlimDX.pdb
+E:\Coding\bulletSharp demos\src\DemoFramework\Graphics\SlimDX\obj\x86\Debug\SlimDX.csprojResolveAssemblyReference.cache
+E:\MegaProject\bin\Debug\DemoFramework.SlimDX.dll
+E:\MegaProject\bin\Debug\DemoFramework.SlimDX.pdb
+E:\MegaProject\Dependencies Sources\Graphic.SlimDX\obj\x86\Debug\SlimDX.csprojResolveAssemblyReference.cache
+E:\MegaProject\Dependencies Sources\Graphic.SlimDX\obj\x86\Debug\DemoFramework.SlimDX.dll
+E:\MegaProject\Dependencies Sources\Graphic.SlimDX\obj\x86\Debug\DemoFramework.SlimDX.pdb
+E:\Dirac\Dirac\Dependencies Sources\Graphic.SlimDX\obj\x86\Debug\SlimDX.csprojResolveAssemblyReference.cache
+E:\Dirac\Dirac\Dependencies Sources\Graphic.SlimDX\obj\x86\Debug\DemoFramework.SlimDX.dll
+E:\Dirac\Dirac\Dependencies Sources\Graphic.SlimDX\obj\x86\Debug\DemoFramework.SlimDX.pdb
+E:\Dirac\Dirac\bin\Debug\DemoFramework.SlimDX.dll
+E:\Dirac\Dirac\bin\Debug\DemoFramework.SlimDX.pdb

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Potion5.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>32000</SNOId>
+  </Header>
+  <MeshFileName>Potion5.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <Scale>30</Scale>
+  <SkinName>Potion5</SkinName>
+  <Hash>5555</Hash>
+  <Name>Potion 5</Name>
+  <SNOActor>1</SNOActor>
+  <ItemType>1</ItemType>
+  <ItemLevel>1</ItemLevel>
+  <BaseGoldValue>1</BaseGoldValue>
+  <RequiredLevel>1</RequiredLevel>
+  <DurabilityMin>1</DurabilityMin>
+  <DurabilityDelta>1</DurabilityDelta>
+  <WeaponDamageMin>1</WeaponDamageMin>
+  <WeaponDamageDelta>1</WeaponDamageDelta>
+  <ArmorValue>50</ArmorValue>
+  <AttacksPerSecond>5</AttacksPerSecond>
+  <Quality>Magic1</Quality>
+  <InventorySize>
+	<Width>1</Width>
+    <Height>1</Height>
+  </InventorySize>
+</ItemData>

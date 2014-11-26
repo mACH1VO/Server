@@ -1,0 +1,15 @@
+C:\Users\Matias\Documents\Visual Studio 2010\Projects\EulerFinder\EulerFinder\obj\x86\Debug\EulerFinder.Properties.Resources.resources
+C:\Users\Matias\Documents\Visual Studio 2010\Projects\EulerFinder\EulerFinder\obj\x86\Debug\EulerFinder.csproj.GenerateResource.Cache
+C:\Users\Matias\Documents\Visual Studio 2010\Projects\EulerFinder\EulerFinder\bin\Debug\EulerFinder.pdb
+C:\Users\Matias\Documents\Visual Studio 2010\Projects\EulerFinder\EulerFinder\obj\x86\Debug\EulerFinder.pdb
+C:\Users\Matias\Documents\Visual Studio 2010\Projects\EulerFinder\EulerFinder\bin\Debug\EulerFinder.dll
+C:\Users\Matias\Documents\Visual Studio 2010\Projects\EulerFinder\EulerFinder\obj\x86\Debug\EulerFinder.dll
+E:\MegaProject\Dependencies Sources\EulerFinder\bin\Debug\EulerFinder.dll
+E:\MegaProject\Dependencies Sources\EulerFinder\bin\Debug\EulerFinder.pdb
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Debug\EulerFinder.Properties.Resources.resources
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Debug\EulerFinder.csproj.GenerateResource.Cache
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Debug\EulerFinder.dll
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Debug\EulerFinder.pdb
+E:\MegaProject\bin\Debug\EulerFinder.dll
+E:\MegaProject\bin\Debug\EulerFinder.pdb
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Debug\EulerFinder.csprojResolveAssemblyReference.cache

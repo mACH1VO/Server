@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Sword1.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>Sword1.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <Scale>30</Scale>
+  <Scale3D>0.01</Scale3D>
+  <ScaleTagPoint>1</ScaleTagPoint>
+  <SkinName>Sword1</SkinName>
+  <Hash>5555</Hash>
+  <Name>KrissD3</Name>
+  <SNOActor>1</SNOActor>
+  <ItemType>Sword_1H</ItemType>
+  <ItemLevel>1</ItemLevel>
+  <BaseGoldValue>1</BaseGoldValue>
+  <RequiredLevel>1</RequiredLevel>
+  <DurabilityMin>1</DurabilityMin>
+  <DurabilityDelta>1</DurabilityDelta>
+  <WeaponDamageMin>1</WeaponDamageMin>
+  <WeaponDamageDelta>1</WeaponDamageDelta>
+  <ArmorValue>50</ArmorValue>
+  <AttacksPerSecond>5</AttacksPerSecond>
+  <Quality>Magic1</Quality>
+  <InventorySize>
+	<Width>1</Width>
+  <Height>3</Height>
+  </InventorySize>
+</ItemData>

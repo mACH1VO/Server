@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProjectileData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Arrow.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>Arrow.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <Scale>30</Scale>
+</ProjectileData>

@@ -1,0 +1,11 @@
+E:\MegaProject\Dependencies Sources\Gibbed.IO\bin\Debug\Gibbed.IO.dll
+E:\MegaProject\Dependencies Sources\Gibbed.IO\bin\Debug\Gibbed.IO.pdb
+E:\MegaProject\Dependencies Sources\Gibbed.IO\obj\Debug\Gibbed.IO.dll
+E:\MegaProject\Dependencies Sources\Gibbed.IO\obj\Debug\Gibbed.IO.pdb
+E:\MegaProject\bin\Debug\Gibbed.IO.dll
+E:\MegaProject\bin\Debug\Gibbed.IO.pdb
+E:\Dirac\Dirac\bin\Debug\Gibbed.IO.dll
+E:\Dirac\Dirac\bin\Debug\Gibbed.IO.pdb
+E:\Dirac\Dirac\Dependencies Sources\Gibbed.IO\obj\Debug\Gibbed.IO.dll
+E:\Dirac\Dirac\Dependencies Sources\Gibbed.IO\obj\Debug\Gibbed.IO.pdb
+E:\Dirac\Dirac\Dependencies Sources\Gibbed.IO\obj\Debug\Gibbed.IO.csprojResolveAssemblyReference.cache

@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<ActorData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ActorSNOMapList>
+    <ActorSNOMap><SNO>1</SNO><FileName>ArmorElf01</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>2</SNO><FileName>Scepter6</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>3</SNO><FileName>Sword1</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>4</SNO><FileName>Sword02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6</SNO><FileName>Sword06</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>7</SNO><FileName>Bow7</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>9</SNO><FileName>Staff06</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>10</SNO><FileName>Staff10</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>14</SNO><FileName>Sword14</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>24</SNO><FileName>Bow24</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>30</SNO><FileName>Axe12</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>31</SNO><FileName>Mace05</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>32</SNO><FileName>Sword48</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>33</SNO><FileName>Sword49</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>34</SNO><FileName>Sword50</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>35</SNO><FileName>Sword51</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>36</SNO><FileName>Sword52</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>37</SNO><FileName>Sword53</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>38</SNO><FileName>Sword54</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>39</SNO><FileName>Sword17</FileName></ActorSNOMap>
+    
+    <ActorSNOMap><SNO>101</SNO><FileName>CrossBow01</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>102</SNO><FileName>CrossBow02</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>103</SNO><FileName>CrossBow03</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>104</SNO><FileName>CrossBow04</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>105</SNO><FileName>CrossBow05</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>106</SNO><FileName>CrossBow06</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>107</SNO><FileName>CrossBow07</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>117</SNO><FileName>CrossBow17</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>120</SNO><FileName>CrossBow20</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>201</SNO><FileName>Bow01</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>202</SNO><FileName>Bow02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>203</SNO><FileName>Bow03</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>204</SNO><FileName>Bow04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>205</SNO><FileName>Bow05</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>206</SNO><FileName>Bow06</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>207</SNO><FileName>Bow07</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>301</SNO><FileName>Mace01</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>302</SNO><FileName>Mace02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>303</SNO><FileName>Mace03</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>304</SNO><FileName>Mace04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>305</SNO><FileName>Mace05</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>306</SNO><FileName>Mace06</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>307</SNO><FileName>Mace07</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>308</SNO><FileName>Mace08</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>309</SNO><FileName>Mace09</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>310</SNO><FileName>Mace10</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>311</SNO><FileName>Mace11</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>312</SNO><FileName>Mace12</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>313</SNO><FileName>Mace13</FileName></ActorSNOMap>
+    <ActorSNOMap><SNO>314</SNO><FileName>Mace14</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>401</SNO><FileName>Axe01</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>402</SNO><FileName>Axe02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>403</SNO><FileName>Axe03</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>404</SNO><FileName>Axe04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>405</SNO><FileName>Axe05</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>406</SNO><FileName>Axe06</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>407</SNO><FileName>Axe07</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>408</SNO><FileName>Axe08</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>409</SNO><FileName>Axe09</FileName></ActorSNOMap>
+	
+    <ActorSNOMap><SNO>1005</SNO><FileName>ArmorMale02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1006</SNO><FileName>GloveMale02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1007</SNO><FileName>PantMale02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1008</SNO><FileName>HelmMale02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1009</SNO><FileName>BootMale02</FileName></ActorSNOMap>
+    
+    <ActorSNOMap><SNO>1010</SNO><FileName>ArmorMale04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1011</SNO><FileName>GloveMale04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1012</SNO><FileName>PantMale04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1013</SNO><FileName>HelmMale04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1014</SNO><FileName>BootMale04</FileName></ActorSNOMap>
+    
+    <ActorSNOMap><SNO>1015</SNO><FileName>ArmorMale16</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1016</SNO><FileName>GloveMale16</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1017</SNO><FileName>PantMale16</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1018</SNO><FileName>BootMale16</FileName></ActorSNOMap>
+    
+    <ActorSNOMap><SNO>1019</SNO><FileName>ArmorMale18</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1020</SNO><FileName>GloveMale18</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1021</SNO><FileName>PantMale18</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1022</SNO><FileName>HelmMale18</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>1023</SNO><FileName>BootMale18</FileName></ActorSNOMap>
+    
+    <ActorSNOMap>
+      <SNO>5033</SNO>
+      <FileName>Wing01</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5034</SNO>
+      <FileName>Wing02</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5035</SNO>
+      <FileName>Wing03</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5036</SNO>
+      <FileName>Wing04</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5037</SNO>
+      <FileName>Wing05</FileName>
+    </ActorSNOMap>
+    
+    <ActorSNOMap>
+      <SNO>5038</SNO>
+      <FileName>Wing06</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5040</SNO>
+      <FileName>Wing08</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5041</SNO>
+      <FileName>Wing09</FileName>
+    </ActorSNOMap>
+
+    <ActorSNOMap>
+      <SNO>5050</SNO>
+      <FileName>Wing57</FileName>
+    </ActorSNOMap>
+    
+	<ActorSNOMap><SNO>6001</SNO><FileName>Jewel01</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6002</SNO><FileName>Jewel02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6003</SNO><FileName>Jewel03</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>6102</SNO><FileName>Potion02</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6103</SNO><FileName>Potion03</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6104</SNO><FileName>Potion04</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6105</SNO><FileName>Potion05</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6106</SNO><FileName>Potion06</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>6107</SNO><FileName>Potion07</FileName></ActorSNOMap>
+    
+	<ActorSNOMap><SNO>10000</SNO><FileName>L_Dual22_SM</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>11000</SNO><FileName>Staff22_SM</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>11001</SNO><FileName>Staff00_SM</FileName></ActorSNOMap>
+
+    <!--      //////      NPC      //////    -->
+  <ActorSNOMap><SNO>20000</SNO><FileName>Storage01</FileName></ActorSNOMap>
+  <ActorSNOMap><SNO>20001</SNO><FileName>ElfMerchant01</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>32000</SNO><FileName>Class02</FileName></ActorSNOMap>
+  <ActorSNOMap><SNO>32001</SNO><FileName>Class03</FileName></ActorSNOMap>
+  <ActorSNOMap><SNO>32005</SNO><FileName>Class05</FileName></ActorSNOMap>
+  <ActorSNOMap><SNO>32202</SNO><FileName>Class202</FileName></ActorSNOMap>
+    
+	<ActorSNOMap><SNO>50000</SNO><FileName>Potion5</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>51000</SNO><FileName>Spider</FileName></ActorSNOMap>
+	
+<ActorSNOMap><SNO>51001</SNO><FileName>Monster01</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51002</SNO><FileName>Monster02</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51003</SNO><FileName>Monster03</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51004</SNO><FileName>Monster04</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51005</SNO><FileName>Monster05</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51006</SNO><FileName>Monster06</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51007</SNO><FileName>Monster07</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51008</SNO><FileName>Monster08</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51009</SNO><FileName>Monster09</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51010</SNO><FileName>Monster10</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51100</SNO><FileName>Monster100</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51101</SNO><FileName>monster101</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51102</SNO><FileName>monster102</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51103</SNO><FileName>monster103</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51104</SNO><FileName>monster104</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51105</SNO><FileName>monster105</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51106</SNO><FileName>monster106</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51107</SNO><FileName>Monster107</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51108</SNO><FileName>monster108</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51109</SNO><FileName>monster109</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51011</SNO><FileName>Monster11</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51110</SNO><FileName>monster110</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51111</SNO><FileName>monster111</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51112</SNO><FileName>monster112</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51113</SNO><FileName>Monster113</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51114</SNO><FileName>Monster114</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51115</SNO><FileName>Monster115</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51116</SNO><FileName>Monster116</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51117</SNO><FileName>Monster117</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51118</SNO><FileName>monster118</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51012</SNO><FileName>Monster12</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51122</SNO><FileName>monster122</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51123</SNO><FileName>Monster123</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51124</SNO><FileName>monster124</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51125</SNO><FileName>monster125</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51126</SNO><FileName>monster126</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51127</SNO><FileName>Monster127</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51128</SNO><FileName>Monster128</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51129</SNO><FileName>Monster129</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51013</SNO><FileName>Monster13</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51130</SNO><FileName>Monster130</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51131</SNO><FileName>Monster131</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51132</SNO><FileName>Monster132</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51133</SNO><FileName>Monster133</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51134</SNO><FileName>Monster134</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51135</SNO><FileName>Monster135</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51136</SNO><FileName>Monster136</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51137</SNO><FileName>Monster137</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51138</SNO><FileName>Monster138</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51139</SNO><FileName>Monster139</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51014</SNO><FileName>Monster14</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51140</SNO><FileName>Monster140</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51141</SNO><FileName>Monster141</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51142</SNO><FileName>Monster142</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51143</SNO><FileName>Monster143</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51144</SNO><FileName>Monster144</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51145</SNO><FileName>Monster145</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51146</SNO><FileName>Monster146</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51147</SNO><FileName>Monster147</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51148</SNO><FileName>Monster148</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51149</SNO><FileName>Monster149</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51015</SNO><FileName>Monster15</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51150</SNO><FileName>Monster150</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51151</SNO><FileName>Monster151</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51152</SNO><FileName>Monster152</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51153</SNO><FileName>Monster153</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51154</SNO><FileName>Monster154</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51155</SNO><FileName>monster155</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51156</SNO><FileName>Monster156</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51157</SNO><FileName>Monster157</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51158</SNO><FileName>MONSTER158</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51159</SNO><FileName>MONSTER159</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51016</SNO><FileName>Monster16</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51160</SNO><FileName>MONSTER160</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51161</SNO><FileName>MONSTER161</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51162</SNO><FileName>MONSTER162</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51163</SNO><FileName>MONSTER163</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51164</SNO><FileName>MONSTER164</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51165</SNO><FileName>Monster165</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51166</SNO><FileName>Monster166</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51167</SNO><FileName>Monster167</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51168</SNO><FileName>Monster168</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51169</SNO><FileName>monster169</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51017</SNO><FileName>Monster17</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51170</SNO><FileName>Monster170</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51171</SNO><FileName>Monster171</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51172</SNO><FileName>monster172</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51173</SNO><FileName>monster173</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51174</SNO><FileName>Monster174</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51175</SNO><FileName>Monster175</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51176</SNO><FileName>Monster176</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51177</SNO><FileName>Monster177</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51178</SNO><FileName>monster178</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51179</SNO><FileName>Monster179</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51018</SNO><FileName>Monster18</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51180</SNO><FileName>monster180</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51181</SNO><FileName>monster181</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51182</SNO><FileName>monster182</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51184</SNO><FileName>monster184</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51185</SNO><FileName>monster185</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51186</SNO><FileName>monster186</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51187</SNO><FileName>monster187</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51188</SNO><FileName>monster188</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51019</SNO><FileName>Monster19</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51190</SNO><FileName>monster190</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51191</SNO><FileName>monster191</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51192</SNO><FileName>monster192</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51193</SNO><FileName>monster193</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51194</SNO><FileName>monster194</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51195</SNO><FileName>monster195</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51196</SNO><FileName>Monster196</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51197</SNO><FileName>monster197</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51198</SNO><FileName>Monster198</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51199</SNO><FileName>monster199</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51020</SNO><FileName>Monster20</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51200</SNO><FileName>Monster200</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51201</SNO><FileName>Monster201</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51202</SNO><FileName>monster202</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51203</SNO><FileName>monster203</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51204</SNO><FileName>monster204</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51206</SNO><FileName>Monster206</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51207</SNO><FileName>Monster207</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51208</SNO><FileName>Monster208</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51209</SNO><FileName>Monster209</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51021</SNO><FileName>Monster21</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51210</SNO><FileName>Monster210</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51211</SNO><FileName>Monster211</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51212</SNO><FileName>Monster212</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51213</SNO><FileName>Monster213</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51214</SNO><FileName>Monster214</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51215</SNO><FileName>Monster215</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51216</SNO><FileName>Monster216</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51217</SNO><FileName>Monster217</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51022</SNO><FileName>Monster22</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51023</SNO><FileName>Monster23</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51024</SNO><FileName>Monster24</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51025</SNO><FileName>Monster25</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51026</SNO><FileName>Monster26</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51027</SNO><FileName>Monster27</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51028</SNO><FileName>Monster28</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51029</SNO><FileName>Monster29</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51030</SNO><FileName>Monster30</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51031</SNO><FileName>Monster31</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51032</SNO><FileName>Monster32</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51033</SNO><FileName>Monster33</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51034</SNO><FileName>Monster34</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51035</SNO><FileName>Monster35</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51036</SNO><FileName>Monster36</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51037</SNO><FileName>Monster37</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51038</SNO><FileName>Monster38</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51039</SNO><FileName>Monster39</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51040</SNO><FileName>Monster40</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51041</SNO><FileName>Monster41</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51042</SNO><FileName>Monster42</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51043</SNO><FileName>Monster43</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51044</SNO><FileName>Monster44</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51045</SNO><FileName>Monster45</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51046</SNO><FileName>Monster46</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51047</SNO><FileName>Monster47</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51048</SNO><FileName>Monster48</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51049</SNO><FileName>Monster49</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51051</SNO><FileName>Monster51</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51052</SNO><FileName>Monster52</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51053</SNO><FileName>Monster53</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51054</SNO><FileName>Monster54</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51055</SNO><FileName>Monster55</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51056</SNO><FileName>Monster56</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51057</SNO><FileName>Monster57</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51058</SNO><FileName>Monster58</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51059</SNO><FileName>Monster59</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51060</SNO><FileName>Monster60</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51061</SNO><FileName>Monster61</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51062</SNO><FileName>Monster62</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51063</SNO><FileName>Monster63</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51064</SNO><FileName>Monster64</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51066</SNO><FileName>Monster66</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51067</SNO><FileName>Monster67</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51068</SNO><FileName>monster68</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51069</SNO><FileName>monster69</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51070</SNO><FileName>Monster70</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51071</SNO><FileName>Monster71</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51072</SNO><FileName>Monster72</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51073</SNO><FileName>Monster73</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51074</SNO><FileName>Monster74</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51075</SNO><FileName>Monster75</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51077</SNO><FileName>Monster77</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51078</SNO><FileName>Monster78</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51079</SNO><FileName>Monster79</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51080</SNO><FileName>Monster80</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51082</SNO><FileName>Monster82</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51083</SNO><FileName>Monster83</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51084</SNO><FileName>Monster84</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51085</SNO><FileName>Monster85</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51086</SNO><FileName>Monster86</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51087</SNO><FileName>Monster87</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51088</SNO><FileName>Monster88</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51090</SNO><FileName>Monster90</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51091</SNO><FileName>Monster91</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51092</SNO><FileName>Monster92</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51093</SNO><FileName>Monster93</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51094</SNO><FileName>Monster94</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51095</SNO><FileName>Monster95</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51096</SNO><FileName>Monster96</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51097</SNO><FileName>Monster97</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51098</SNO><FileName>Monster98</FileName></ActorSNOMap>
+<ActorSNOMap><SNO>51099</SNO><FileName>Monster99</FileName></ActorSNOMap>
+
+	<ActorSNOMap><SNO>52000</SNO><FileName>Monx</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>52001</SNO><FileName>Bull</FileName></ActorSNOMap>
+  <ActorSNOMap><SNO>52002</SNO><FileName>TreeMonster</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>54000</SNO><FileName>Goblin</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>54001</SNO><FileName>DarkSpider</FileName></ActorSNOMap>
+	
+	<ActorSNOMap><SNO>55000</SNO><FileName>Mada</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>55001</SNO><FileName>WitchQueen01</FileName></ActorSNOMap>
+  <ActorSNOMap><SNO>55002</SNO><FileName>M_Zombiedog01_SM</FileName></ActorSNOMap>
+	<ActorSNOMap><SNO>55003</SNO><FileName>M_StoneScorpion01_Sm</FileName></ActorSNOMap>
+    
+    
+	<ActorSNOMap><SNO>60000</SNO><FileName>Arrow</FileName></ActorSNOMap>
+	
+  </ActorSNOMapList>
+</ActorData>
+

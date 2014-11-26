@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<MonsterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Monx.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>Monx.mesh</MeshFileName>
+  <ExtraMeshFileName>
+	<string>Monx_1.mesh</string>
+  </ExtraMeshFileName>
+  <UpPosition>1</UpPosition>
+  <Scale>2</Scale>
+  <LocaldirVectorX>0</LocaldirVectorX>
+  <LocaldirVectorY>0</LocaldirVectorY>
+  <LocaldirVectorZ>1</LocaldirVectorZ>
+</MonsterData>

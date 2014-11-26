@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Bow24.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>Bow24.mesh</MeshFileName>
+  <ExtraMeshFileName>
+    <string>Bow24_thread.mesh</string>
+  </ExtraMeshFileName>
+  <Scale>1</Scale>
+  <ScaleTagPoint>1</ScaleTagPoint>
+  <Scale3D>0.001</Scale3D>
+  <SkinName>Bow24</SkinName>
+  <Hash>5555</Hash>
+  <Name>Slphyd Bow</Name>
+  <SNOActor>1</SNOActor>
+  <ItemType>Bow</ItemType>
+  <ItemLevel>1</ItemLevel>
+  <BaseGoldValue>1</BaseGoldValue>
+  <RequiredLevel>1</RequiredLevel>
+  <DurabilityMin>1</DurabilityMin>
+  <DurabilityDelta>1</DurabilityDelta>
+  <WeaponDamageMin>1</WeaponDamageMin>
+  <WeaponDamageDelta>1</WeaponDamageDelta>
+  <ArmorValue>50</ArmorValue>
+  <AttacksPerSecond>5</AttacksPerSecond>
+  <Quality>Magic1</Quality>
+  <InventorySize>
+	<Width>2</Width>
+    <Height>4</Height>
+  </InventorySize>
+</ItemData>

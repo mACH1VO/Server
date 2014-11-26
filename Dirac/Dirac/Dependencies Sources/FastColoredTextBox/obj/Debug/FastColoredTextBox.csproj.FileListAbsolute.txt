@@ -1,0 +1,24 @@
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+E:\SourceTree\FastColoredTextBox\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBox.csprojResolveAssemblyReference.cache
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb
+E:\Dirac\Dirac\bin\Debug\FastColoredTextBox.dll
+E:\Dirac\Dirac\bin\Debug\FastColoredTextBox.pdb
+E:\Dirac\Dirac\bin\Debug\FastColoredTextBox.XML
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.HotkeysEditorForm.resources
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+E:\Dirac\Dirac\Dependencies Sources\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache

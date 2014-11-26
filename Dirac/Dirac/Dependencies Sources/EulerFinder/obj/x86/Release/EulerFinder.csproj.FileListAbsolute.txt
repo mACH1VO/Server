@@ -1,0 +1,2 @@
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Release\EulerFinder.Properties.Resources.resources
+E:\MegaProject\Dependencies Sources\EulerFinder\obj\x86\Release\EulerFinder.csproj.GenerateResource.Cache

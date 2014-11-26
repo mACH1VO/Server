@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<MonsterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>TreeMonster.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>TreeMonster.mesh</MeshFileName>
+  <ExtraMeshFileName>
+    <string>TreeMonster_01.mesh</string>
+  </ExtraMeshFileName>
+  <UpPosition>1</UpPosition>
+  <Scale>3</Scale>
+  <LocaldirVectorX>0</LocaldirVectorX>
+  <LocaldirVectorY>0</LocaldirVectorY>
+  <LocaldirVectorZ>1</LocaldirVectorZ>
+  <SkeletalAnimInfoDataList>
+    
+    <SkeletalAnimInfoData>
+      <animType>Idle</animType>
+      <initTimeSeconds>0</initTimeSeconds>
+      <endTimeSeconds>0.40</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+    <SkeletalAnimInfoData>
+      <animType>Walk</animType>
+      <initTimeSeconds>0.40</initTimeSeconds>
+      <endTimeSeconds>0.70</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Attack1</animType>
+      <initTimeSeconds>0.7</initTimeSeconds>
+      <endTimeSeconds>1.0</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+  </SkeletalAnimInfoDataList>
+</MonsterData>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6722116-E4C6-4A54-B693-65655FA0D6C6}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>EulerNavMesh</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\include;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\bin\Debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DetourWrapper.h" />
+    <ClInclude Include="include\CrowdManager.h" />
+    <ClInclude Include="include\InputGeom.h" />
+    <ClInclude Include="include\OgreDetourCrowd.h" />
+    <ClInclude Include="include\OgreDetourTileCache.h" />
+    <ClInclude Include="include\OgreRecast.h" />
+    <ClInclude Include="include\OgreRecastConfigParams.h" />
+    <ClInclude Include="include\OgreRecastDefinitions.h" />
+    <ClInclude Include="include\RecastContrib\fastlz.h" />
+    <ClInclude Include="Logg.h" />
+    <ClInclude Include="include\DetourCrowd\DetourCrowd.h" />
+    <ClInclude Include="include\DetourCrowd\DetourLocalBoundary.h" />
+    <ClInclude Include="include\DetourCrowd\DetourObstacleAvoidance.h" />
+    <ClInclude Include="include\DetourCrowd\DetourPathCorridor.h" />
+    <ClInclude Include="include\DetourCrowd\DetourPathQueue.h" />
+    <ClInclude Include="include\DetourCrowd\DetourProximityGrid.h" />
+    <ClInclude Include="include\DetourTileCache\DetourTileCache.h" />
+    <ClInclude Include="include\DetourTileCache\DetourTileCacheBuilder.h" />
+    <ClInclude Include="include\Detour\DetourAlloc.h" />
+    <ClInclude Include="include\Detour\DetourAssert.h" />
+    <ClInclude Include="include\Detour\DetourCommon.h" />
+    <ClInclude Include="include\Detour\DetourNavMesh.h" />
+    <ClInclude Include="include\Detour\DetourNavMeshBuilder.h" />
+    <ClInclude Include="include\Detour\DetourNavMeshQuery.h" />
+    <ClInclude Include="include\Detour\DetourNode.h" />
+    <ClInclude Include="include\Detour\DetourStatus.h" />
+    <ClInclude Include="include\Recast\Recast.h" />
+    <ClInclude Include="include\Recast\RecastAlloc.h" />
+    <ClInclude Include="include\Recast\RecastAssert.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DetourWrapper.cpp" />
+    <ClCompile Include="Logg.cpp" />
+    <ClCompile Include="src\DetourCrowd\DetourCrowd.cpp" />
+    <ClCompile Include="src\DetourCrowd\DetourLocalBoundary.cpp" />
+    <ClCompile Include="src\DetourCrowd\DetourObstacleAvoidance.cpp" />
+    <ClCompile Include="src\DetourCrowd\DetourPathCorridor.cpp" />
+    <ClCompile Include="src\DetourCrowd\DetourPathQueue.cpp" />
+    <ClCompile Include="src\DetourCrowd\DetourProximityGrid.cpp" />
+    <ClCompile Include="src\DetourTileCache\DetourTileCache.cpp" />
+    <ClCompile Include="src\DetourTileCache\DetourTileCacheBuilder.cpp" />
+    <ClCompile Include="src\Detour\DetourAlloc.cpp" />
+    <ClCompile Include="src\Detour\DetourCommon.cpp" />
+    <ClCompile Include="src\Detour\DetourNavMesh.cpp" />
+    <ClCompile Include="src\Detour\DetourNavMeshBuilder.cpp" />
+    <ClCompile Include="src\Detour\DetourNavMeshQuery.cpp" />
+    <ClCompile Include="src\Detour\DetourNode.cpp" />
+    <ClCompile Include="src\InputGeom.cpp" />
+    <ClCompile Include="src\OgreDetourCrowd.cpp" />
+    <ClCompile Include="src\OgreDetourTileCache.cpp" />
+    <ClCompile Include="src\OgreRecast.cpp" />
+    <ClCompile Include="src\RecastContrib\fastlz.cpp" />
+    <ClCompile Include="src\Recast\Recast.cpp" />
+    <ClCompile Include="src\Recast\RecastAlloc.cpp" />
+    <ClCompile Include="src\Recast\RecastArea.cpp" />
+    <ClCompile Include="src\Recast\RecastContour.cpp" />
+    <ClCompile Include="src\Recast\RecastFilter.cpp" />
+    <ClCompile Include="src\Recast\RecastLayers.cpp" />
+    <ClCompile Include="src\Recast\RecastMesh.cpp" />
+    <ClCompile Include="src\Recast\RecastMeshDetail.cpp" />
+    <ClCompile Include="src\Recast\RecastRasterization.cpp" />
+    <ClCompile Include="src\Recast\RecastRegion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

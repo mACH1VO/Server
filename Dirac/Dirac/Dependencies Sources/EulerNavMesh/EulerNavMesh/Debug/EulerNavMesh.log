@@ -1,0 +1,48 @@
+﻿Build started 14/08/2014 11:05:25 a.m..
+     1>Project "E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\EulerNavMesh.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib src\OgreRecast.cpp
+         OgreRecast.cpp
+     1>src\OgreRecast.cpp(73): warning C4150: deletion of pointer to incomplete type 'InputGeom'; no destructor called
+                 E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\include\OgreRecast.h(248) : see declaration of 'InputGeom'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\Debug\EulerNavMesh.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\Debug\EulerNavMesh.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\DetourWrapper.obj
+         Debug\Logg.obj
+         Debug\DetourCrowd.obj
+         Debug\DetourLocalBoundary.obj
+         Debug\DetourObstacleAvoidance.obj
+         Debug\DetourPathCorridor.obj
+         Debug\DetourPathQueue.obj
+         Debug\DetourProximityGrid.obj
+         Debug\DetourTileCache.obj
+         Debug\DetourTileCacheBuilder.obj
+         Debug\DetourAlloc.obj
+         Debug\DetourCommon.obj
+         Debug\DetourNavMesh.obj
+         Debug\DetourNavMeshBuilder.obj
+         Debug\DetourNavMeshQuery.obj
+         Debug\DetourNode.obj
+         Debug\InputGeom.obj
+         Debug\OgreDetourCrowd.obj
+         Debug\OgreDetourTileCache.obj
+         Debug\OgreRecast.obj
+         Debug\fastlz.obj
+         Debug\Recast.obj
+         Debug\RecastAlloc.obj
+         Debug\RecastArea.obj
+         Debug\RecastContour.obj
+         Debug\RecastFilter.obj
+         Debug\RecastLayers.obj
+         Debug\RecastMesh.obj
+         Debug\RecastMeshDetail.obj
+         Debug\RecastRasterization.obj
+         Debug\RecastRegion.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         EulerNavMesh.vcxproj -> E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\..\..\..\bin\Debug\EulerNavMesh.dll
+     1>Done Building Project "E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\EulerNavMesh.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25

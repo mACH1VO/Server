@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PlayerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Class202.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>ArmorClass202.mesh</MeshFileName>
+  <ExtraMeshFileName>
+    <string>HelmClass202.mesh</string>
+    <string>GloveClass202.mesh</string>
+    <string>PantClass202.mesh</string>
+    <string>BootClass202.mesh</string>
+  </ExtraMeshFileName>
+</PlayerData>

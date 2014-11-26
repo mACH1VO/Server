@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>SilkGloves.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>SilkGloves_Drop.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <ItemEquipedMeshFileNames>
+    <string>SilkGloves_1.mesh</string>
+  </ItemEquipedMeshFileNames>
+  <Scale3D>0.006</Scale3D>
+  <Scale>1</Scale>
+  <ScaleTagPoint>1</ScaleTagPoint>
+  <SkinName>SilkGloves</SkinName>
+  <Hash>5555</Hash>
+  <Name>SilkGloves</Name>
+  <SNOActor>1</SNOActor>
+  <ItemType>Gloves</ItemType>
+  <ItemLevel>1</ItemLevel>
+  <BaseGoldValue>1</BaseGoldValue>
+  <RequiredLevel>1</RequiredLevel>
+  <DurabilityMin>1</DurabilityMin>
+  <DurabilityDelta>1</DurabilityDelta>
+  <WeaponDamageMin>1</WeaponDamageMin>
+  <WeaponDamageDelta>1</WeaponDamageDelta>
+  <ArmorValue>50</ArmorValue>
+  <AttacksPerSecond>5</AttacksPerSecond>
+  <Quality>Magic1</Quality>
+  <InventorySize>
+	<Width>2</Width>
+    <Height>2</Height>
+  </InventorySize>
+</ItemData>

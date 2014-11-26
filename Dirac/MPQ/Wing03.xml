@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>Wing03.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>Wing03.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <ItemEquipedMeshFileNames>
+    <string>Wing03.mesh</string>
+  </ItemEquipedMeshFileNames>
+  <Scale>0.04</Scale>
+  <Scale3D>0.00005</Scale3D>
+  <ScaleTagPoint>1</ScaleTagPoint>
+  <SkinName>Wing03</SkinName>
+  <Hash>5555</Hash>
+  <Name>Wing03</Name>
+  <SNOActor>1</SNOActor>
+  <ItemType>Wing</ItemType>
+  <ItemLevel>1</ItemLevel>
+  <BaseGoldValue>1</BaseGoldValue>
+  <RequiredLevel>1</RequiredLevel>
+  <DurabilityMin>1</DurabilityMin>
+  <DurabilityDelta>1</DurabilityDelta>
+  <WeaponDamageMin>1</WeaponDamageMin>
+  <WeaponDamageDelta>1</WeaponDamageDelta>
+  <ArmorValue>50</ArmorValue>
+  <AttacksPerSecond>5</AttacksPerSecond>
+  <Quality>Magic1</Quality>
+  <InventorySize>
+	<Width>5</Width>
+  <Height>2</Height>
+  </InventorySize>
+</ItemData>

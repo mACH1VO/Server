@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E637E2F6-C1CF-4B9B-A9AD-15878FEF366A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dirac</RootNamespace>
+    <AssemblyName>Dirac</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Nini">
+      <HintPath>Dependencies\nini\Nini.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BulletPhysics\BasicDemo.cs" />
+    <Compile Include="Config\Config.cs" />
+    <Compile Include="Config\ConfigManagerHelper.cs" />
+    <Compile Include="DB\Data\DBItem.cs" />
+    <Compile Include="DB\Data\DBInventory.cs" />
+    <Compile Include="DB\Data\DBAccount.cs" />
+    <Compile Include="DB\Data\DBCharacter.cs" />
+    <Compile Include="DB\DBManager.cs" />
+    <Compile Include="DB\DBTask.cs" />
+    <Compile Include="DB\DBSessions.cs" />
+    <Compile Include="DB\DataBaseConfig.cs" />
+    <Compile Include="DB\Tasks\InventorySaveTask.cs" />
+    <Compile Include="DB\Tasks\ItemSaveTask.cs" />
+    <Compile Include="DB\Tasks\ItemLoadTask.cs" />
+    <Compile Include="DB\Tasks\InventoryLoadTask.cs" />
+    <Compile Include="DB\Tasks\PlayerLoadTask.cs" />
+    <Compile Include="DB\Tasks\PlayerSaveTask.cs" />
+    <Compile Include="Extensions\ArrayExtensions.cs" />
+    <Compile Include="Extensions\BigInteger\BigIntegerExtensions.cs" />
+    <Compile Include="Extensions\BulletExtensions.cs" />
+    <Compile Include="Extensions\Concurrency\ConcurrentList.cs" />
+    <Compile Include="Extensions\DiracMathExtensions.cs" />
+    <Compile Include="Extensions\StringHash\StringHashHelper.cs" />
+    <Compile Include="Extensions\Time\DateTimeExtensions.cs" />
+    <Compile Include="Extensions\Time\StringExtension.cs" />
+    <Compile Include="Extensions\Versions\VersionInfo.cs" />
+    <Compile Include="GameServer\Core\Actor\Actor.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\AIAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\Movement\AIFollowAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\Movement\AIMoveToTargetAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\AICombatAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\AIDeadAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\AIEvadeAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\AIGuardMasterAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\AIIdleAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\AIRoamAction.cs" />
+    <Compile Include="GameServer\Core\AI\Actions\States\IStrategy.cs" />
+    <Compile Include="GameServer\Core\AI\Brains\BaseBrain.cs" />
+    <Compile Include="GameServer\Core\AI\Brains\BrainState.cs" />
+    <Compile Include="GameServer\Core\AI\Brains\IBrain.cs" />
+    <Compile Include="GameServer\Core\Attributes\Attribute.cs" />
+    <Compile Include="GameServer\Core\Attributes\GameAttributes.cs" />
+    <Compile Include="GameServer\Core\Attributes\GameAttributeStaticList.cs" />
+    <Compile Include="GameServer\Core\Attributes\Implementation\AttributeI.cs" />
+    <Compile Include="GameServer\Core\Attributes\Implementation\AttributeF.cs" />
+    <Compile Include="GameServer\Core\Attributes\Implementation\AttributeB.cs" />
+    <Compile Include="GameServer\Core\Enums.cs" />
+    <Compile Include="GameServer\Core\Common\ProbHelper.cs" />
+    <Compile Include="GameServer\Core\Common\RandomHelper.cs" />
+    <Compile Include="GameServer\Core\Common\Types\Misc\Circle.cs" />
+    <Compile Include="GameServer\Core\Common\Types\Misc\RGBAColor.cs" />
+    <Compile Include="GameServer\Core\Common\Types\QuadTrees\QuadNode.cs" />
+    <Compile Include="GameServer\Core\Common\Types\QuadTrees\QuadTree.cs" />
+    <Compile Include="GameServer\Core\Executor.cs" />
+    <Compile Include="GameServer\Core\Game.cs" />
+    <Compile Include="GameServer\Core\Inventory\BaseInventory.cs" />
+    <Compile Include="GameServer\Core\Inventory\Equipment.cs" />
+    <Compile Include="GameServer\Core\Inventory\IInventareable.cs" />
+    <Compile Include="GameServer\Core\Inventory\InventoryError.cs" />
+    <Compile Include="GameServer\Core\Inventory\ShopInventory.cs" />
+    <Compile Include="GameServer\Core\Inventory\Vault.cs" />
+    <Compile Include="GameServer\Core\Inventory\PlayerInventory.Consume.cs" />
+    <Compile Include="GameServer\Core\Inventory\PlayerInventory.cs" />
+    <Compile Include="GameServer\Core\Items\InventoryItem.cs" />
+    <Compile Include="GameServer\Core\Items\Item.cs" />
+    <Compile Include="GameServer\Core\Items\ItemFactory.cs" />
+    <Compile Include="GameServer\Core\Map\Map.cs" />
+    <Compile Include="GameServer\Core\Map\Map.InitializeActors.cs" />
+    <Compile Include="GameServer\Core\Monsters\Monster.cs" />
+    <Compile Include="GameServer\Core\Monsters\Monster.Mechanics.cs" />
+    <Compile Include="GameServer\Core\Monsters\MonsterFactory.cs" />
+    <Compile Include="GameServer\Core\NPC\NPC.cs" />
+    <Compile Include="GameServer\Core\NPC\NPCFactory.cs" />
+    <Compile Include="GameServer\Core\Objects\DynamicObject.cs" />
+    <Compile Include="GameServer\Core\Objects\IRevealable.cs" />
+    <Compile Include="GameServer\Core\Objects\IUpdateable.cs" />
+    <Compile Include="GameServer\Core\Objects\WorldObject.cs" />
+    <Compile Include="GameServer\Core\Paths\LinearTrajectorie.cs" />
+    <Compile Include="GameServer\Core\Paths\MUPath.cs" />
+    <Compile Include="GameServer\Core\Players\Player.Commands.cs" />
+    <Compile Include="GameServer\Core\Players\Player.cs" />
+    <Compile Include="GameServer\Core\Powers\DamageType.cs" />
+    <Compile Include="GameServer\Core\Powers\EffectActor.cs" />
+    <Compile Include="GameServer\Core\Powers\Elf\BuffDefense.cs" />
+    <Compile Include="GameServer\Core\Powers\Elf\Hand.cs" />
+    <Compile Include="GameServer\Core\Powers\Elf\MultiArrow.cs" />
+    <Compile Include="GameServer\Core\Powers\Elf\SingleArrow.cs" />
+    <Compile Include="GameServer\Core\Powers\ISkill.cs" />
+    <Compile Include="GameServer\Core\Powers\Payloads\AttackPayload.cs" />
+    <Compile Include="GameServer\Core\Powers\Payloads\DeathPayload.cs" />
+    <Compile Include="GameServer\Core\Powers\Payloads\HitPayload.cs" />
+    <Compile Include="GameServer\Core\Powers\Payloads\Payload.cs" />
+    <Compile Include="GameServer\Core\Powers\SkillContext.cs" />
+    <Compile Include="GameServer\Core\Powers\SkillManager.cs" />
+    <Compile Include="GameServer\Core\Powers\PowerSet.cs" />
+    <Compile Include="GameServer\Core\Powers\Projectile.cs" />
+    <Compile Include="GameServer\Core\Powers\TargetList.cs" />
+    <Compile Include="GameServer\Core\TickTimer.cs" />
+    <Compile Include="GameServer\Network\GameBitBuffer.cs" />
+    <Compile Include="GameServer\Network\GameClient.cs" />
+    <Compile Include="GameServer\Network\GameServer.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDChangeActorVisibility.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDClientTranslateMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDDestroyActorMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDCreateActorMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDEnterMapMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDLookAtMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDPickupFailedMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\ACD\ACDTranslateNormalMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Attribute\AttributesSetValuesMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Audio\PlayErrorSoundMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Audio\PlayMusicMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Audio\PlayNonPositionalSoundMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Chat\ChatMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Connection\ConnectionEstablishedMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Connection\LoginMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Connection\LogoutComplete.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Connection\LogoutContextMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Effect\PlayEffectMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Game\GameChangeSceneMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Game\GameSetupMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Game\QuitGameMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Game\VersionsMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Hero\CreateHeroMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Hero\HeroStateMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\DestroyInventoryItemMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\CreateInventoryItemMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryCloseWindowMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryRequestJewelUse.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryShowWindowMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryDropItemMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryResponseMoveMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryRequestMoveMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryRequestQuickMoveMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryRequestUseMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\VisualInventoryMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Misc\AddBuffIconMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Misc\DeleteBuffIconMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Misc\HeartbeatMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Misc\PlayerBusyMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Player\NewPlayerMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Player\PlayerEnterKnownMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Player\PlayerMovementMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Player\PlayerTranslateFacingMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Player\ToonListMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\AssignStatMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\AvailableSkillListMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\SkillListMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\AssignActiveSkillMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\AssignSkillMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\AssignTraitsMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\CancelChanneledSkillMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Skill\UnassignSkillMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Text\BroadcastTextMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Text\DisplayGameTextMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Tick\EndOfTickMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Tick\GameTickMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Trade\OpenTradeWindow.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryRequestBuyItemMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Inventory\InventoryRequestSellItemMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\Trade\TradeMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\World\EnterWorldMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\World\RevealWorldMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\World\TargetMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\World\WeatherOverrideMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\World\WorldDeletedMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Definitions\World\WorldStatusMessage.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\ActiveEvent.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\HeroStateData.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\HotbarButtonData.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\InventoryLocationMessageData.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\InvLoc.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\NetAttributeKeyValue.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\PlayerSavedData.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\ToonData.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\VisualEquipment.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\VisualItem.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\WorldLocationMessageData.cs" />
+    <Compile Include="GameServer\Network\Message\Fields\WorldPlace.cs" />
+    <Compile Include="GameServer\Network\Message\GameMessage.cs" />
+    <Compile Include="GameServer\Network\Message\IMessageConsumer.cs" />
+    <Compile Include="GameServer\Network\Message\ISelfHandler.cs" />
+    <Compile Include="GameServer\Network\Message\Opcodes.cs" />
+    <Compile Include="GameServer\StatisticsTest.cs" />
+    <Compile Include="Logging\Configs\PacketLogConfig.cs" />
+    <Compile Include="Logging\Configs\ServerLogConfig.cs" />
+    <Compile Include="Logging\Configs\WindowLogConfig.cs" />
+    <Compile Include="Login\LoginManager.cs" />
+    <Compile Include="Logging\Targets\WindowTarget.cs" />
+    <Compile Include="Logging\Targets\FileTarget.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Logging\Logger1.cs" />
+    <Compile Include="Logging\LogManager.cs" />
+    <Compile Include="Logging\LogRouter.cs" />
+    <Compile Include="Logging\LogTarget.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="Store\FileFormats\ActorData.cs" />
+    <Compile Include="Store\FileFormats\Common\ClothingInfo.cs" />
+    <Compile Include="Store\FileFormats\Common\Header.cs" />
+    <Compile Include="Store\FileFormats\ItemData.cs" />
+    <Compile Include="Store\FileFormats\MonsterData.cs" />
+    <Compile Include="Store\FileFormats\NavMeshDef.cs" />
+    <Compile Include="Store\FileFormats\NPCData.cs" />
+    <Compile Include="Store\FileFormats\PlayerData.cs" />
+    <Compile Include="Store\FileFormats\ProjectileData.cs" />
+    <Compile Include="Store\FileFormats\Serializable.cs" />
+    <Compile Include="Store\Store.cs" />
+    <Compile Include="Window\RenderWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Window\RenderWindow.Designer.cs">
+      <DependentUpon>RenderWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\ServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\ServerForm.Designer.cs">
+      <DependentUpon>ServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\Theme\NSTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Window\Theme\ThemeBase154.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorldVisualizer\WorldVisualizer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\RenderWindow.resx">
+      <DependentUpon>RenderWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\ServerForm.resx">
+      <DependentUpon>ServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Math\Math.csproj">
+      <Project>{b95f3877-138a-4e72-9a45-d1171bbb503e}</Project>
+      <Name>Math</Name>
+    </ProjectReference>
+    <ProjectReference Include="Dependencies Sources\FastColoredTextBox\FastColoredTextBox.csproj">
+      <Project>{6dd14a85-ccfc-4774-bd26-0f5772512319}</Project>
+      <Name>FastColoredTextBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="Dependencies Sources\Gibbed.IO\Gibbed.IO.csproj">
+      <Project>{047857ba-daa3-4ca7-afb8-a1b082b28c6a}</Project>
+      <Name>Gibbed.IO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

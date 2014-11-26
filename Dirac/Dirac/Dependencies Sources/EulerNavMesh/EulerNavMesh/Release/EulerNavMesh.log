@@ -1,0 +1,96 @@
+﻿Build started 11/06/2013 17:25:40.
+     1>Project "E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\EulerNavMesh.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\EulerNavMesh.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release\EulerNavMesh.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\EulerNavMesh.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt DetourWrapper.cpp Logg.cpp src\DetourCrowd\DetourCrowd.cpp src\DetourCrowd\DetourLocalBoundary.cpp src\DetourCrowd\DetourObstacleAvoidance.cpp src\DetourCrowd\DetourPathCorridor.cpp src\DetourCrowd\DetourPathQueue.cpp src\DetourCrowd\DetourProximityGrid.cpp src\DetourTileCache\DetourTileCache.cpp src\DetourTileCache\DetourTileCacheBuilder.cpp src\Detour\DetourAlloc.cpp src\Detour\DetourCommon.cpp src\Detour\DetourNavMesh.cpp src\Detour\DetourNavMeshBuilder.cpp src\Detour\DetourNavMeshQuery.cpp src\Detour\DetourNode.cpp src\InputGeom.cpp src\OgreDetourTileCache.cpp src\OgreRecast.cpp src\RecastContrib\fastlz.cpp src\Recast\Recast.cpp src\Recast\RecastAlloc.cpp src\Recast\RecastArea.cpp src\Recast\RecastContour.cpp src\Recast\RecastFilter.cpp src\Recast\RecastLayers.cpp src\Recast\RecastMesh.cpp src\Recast\RecastMeshDetail.cpp src\Recast\RecastRasterization.cpp src\Recast\RecastRegion.cpp /clr:nostdlib 
+         DetourWrapper.cpp
+     1>DetourWrapper.cpp(4): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Logg.cpp
+     1>Logg.cpp(39): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourCrowd.cpp
+     1>src\DetourCrowd\DetourCrowd.cpp(1419): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourLocalBoundary.cpp
+     1>src\DetourCrowd\DetourLocalBoundary.cpp(138): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourObstacleAvoidance.cpp
+     1>src\DetourCrowd\DetourObstacleAvoidance.cpp(545): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourPathCorridor.cpp
+     1>src\DetourCrowd\DetourPathCorridor.cpp(589): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourPathQueue.cpp
+     1>src\DetourCrowd\DetourPathQueue.cpp(200): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourProximityGrid.cpp
+     1>src\DetourCrowd\DetourProximityGrid.cpp(195): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourTileCache.cpp
+     1>src\DetourTileCache\DetourTileCache.cpp(705): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourTileCacheBuilder.cpp
+     1>src\DetourTileCache\DetourTileCacheBuilder.cpp(2152): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourAlloc.cpp
+     1>src\Detour\DetourAlloc.cpp(51): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourCommon.cpp
+     1>src\Detour\DetourCommon.cpp(377): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourNavMesh.cpp
+     1>src\Detour\DetourNavMesh.cpp(1445): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourNavMeshBuilder.cpp
+     1>src\Detour\DetourNavMeshBuilder.cpp(776): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourNavMeshQuery.cpp
+     1>src\Detour\DetourNavMeshQuery.cpp(3320): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         DetourNode.cpp
+     1>src\Detour\DetourNode.cpp(165): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         InputGeom.cpp
+     1>src\InputGeom.cpp(347): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         OgreDetourTileCache.cpp
+     1>src\OgreDetourTileCache.cpp(735): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         OgreRecast.cpp
+     1>src\OgreRecast.cpp(233): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         fastlz.cpp
+     1>src\RecastContrib\fastlz.cpp(46): warning C4005: 'FASTLZ_EXPECT_CONDITIONAL' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(43) : see previous definition of 'FASTLZ_EXPECT_CONDITIONAL'
+     1>src\RecastContrib\fastlz.cpp(47): warning C4005: 'FASTLZ_UNEXPECT_CONDITIONAL' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(44) : see previous definition of 'FASTLZ_UNEXPECT_CONDITIONAL'
+     1>src\RecastContrib\fastlz.cpp(56): warning C4005: 'FASTLZ_INLINE' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(54) : see previous definition of 'FASTLZ_INLINE'
+     1>src\RecastContrib\fastlz.cpp(58): warning C4005: 'FASTLZ_INLINE' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(56) : see previous definition of 'FASTLZ_INLINE'
+     1>src\RecastContrib\fastlz.cpp(100): warning C4005: 'FASTLZ_READU16' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(98) : see previous definition of 'FASTLZ_READU16'
+     1>src\RecastContrib\fastlz.cpp(120): warning C4005: 'FASTLZ_LEVEL' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(109) : see previous definition of 'FASTLZ_LEVEL'
+     1>src\RecastContrib\fastlz.cpp(123): warning C4005: 'MAX_DISTANCE' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(95) : see previous definition of 'MAX_DISTANCE'
+     1>src\RecastContrib\fastlz.cpp(128): warning C4005: 'FASTLZ_COMPRESSOR' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(113) : see previous definition of 'FASTLZ_COMPRESSOR'
+     1>src\RecastContrib\fastlz.cpp(129): warning C4005: 'FASTLZ_DECOMPRESSOR' : macro redefinition
+                 src\RecastContrib\fastlz.cpp(114) : see previous definition of 'FASTLZ_DECOMPRESSOR'
+     1>src\RecastContrib\fastlz.cpp(556): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Generating Code...
+         Compiling...
+         Recast.cpp
+     1>src\Recast\Recast.cpp(494): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastAlloc.cpp
+     1>src\Recast\RecastAlloc.cpp(89): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastArea.cpp
+     1>src\Recast\RecastArea.cpp(603): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastContour.cpp
+     1>src\Recast\RecastContour.cpp(852): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastFilter.cpp
+     1>src\Recast\RecastFilter.cpp(208): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastLayers.cpp
+     1>src\Recast\RecastLayers.cpp(621): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastMesh.cpp
+     1>src\Recast\RecastMesh.cpp(1430): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastMeshDetail.cpp
+     1>src\Recast\RecastMeshDetail.cpp(1247): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastRasterization.cpp
+     1>src\Recast\RecastRasterization.cpp(388): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         RecastRegion.cpp
+     1>src\Recast\RecastRegion.cpp(1339): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "E:\MegaProject\Dependencies Sources\EulerNavMesh\EulerNavMesh\EulerNavMesh.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.33

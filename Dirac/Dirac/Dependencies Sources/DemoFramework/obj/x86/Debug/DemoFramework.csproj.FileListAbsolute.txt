@@ -1,0 +1,7 @@
+E:\Dirac\Dirac\bin\Debug\DemoFramework.dll
+E:\Dirac\Dirac\bin\Debug\DemoFramework.pdb
+E:\Dirac\Dirac\Dependencies Sources\DemoFramework\obj\x86\Debug\DemoFramework.csprojResolveAssemblyReference.cache
+E:\Dirac\Dirac\Dependencies Sources\DemoFramework\obj\x86\Debug\DemoFramework.LibrarySelection.resources
+E:\Dirac\Dirac\Dependencies Sources\DemoFramework\obj\x86\Debug\DemoFramework.csproj.GenerateResource.Cache
+E:\Dirac\Dirac\Dependencies Sources\DemoFramework\obj\x86\Debug\DemoFramework.dll
+E:\Dirac\Dirac\Dependencies Sources\DemoFramework\obj\x86\Debug\DemoFramework.pdb

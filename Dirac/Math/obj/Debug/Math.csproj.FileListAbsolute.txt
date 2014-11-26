@@ -1,0 +1,5 @@
+E:\Dirac\Math\obj\Debug\Math.csprojResolveAssemblyReference.cache
+E:\Dirac\Math\bin\Debug\Math.dll
+E:\Dirac\Math\bin\Debug\Math.pdb
+E:\Dirac\Math\obj\Debug\Math.dll
+E:\Dirac\Math\obj\Debug\Math.pdb

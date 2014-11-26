@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<MonsterData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>
+    <FileName>WitchQueen01.xml</FileName>
+    <SnoType>1</SnoType>
+    <SNOId>1</SNOId>
+  </Header>
+  <MeshFileName>M_Witchqueen01_Sm.mesh</MeshFileName>
+  <ExtraMeshFileName>
+  </ExtraMeshFileName>
+  <UpPosition>1</UpPosition>
+  <Scale>2</Scale>
+  <LocaldirVectorX>0</LocaldirVectorX>
+  <LocaldirVectorY>0</LocaldirVectorY>
+  <LocaldirVectorZ>1</LocaldirVectorZ>
+  <SkeletalAnimInfoDataList>
+    
+    <SkeletalAnimInfoData>
+      <animType>Idle</animType>
+      <initTimeSeconds>0</initTimeSeconds>
+      <endTimeSeconds>1.80</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+    <SkeletalAnimInfoData>
+      <animType>IdleEmotion1</animType>
+      <initTimeSeconds>1.83</initTimeSeconds>
+      <endTimeSeconds>4.6</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Attack1</animType>
+      <initTimeSeconds>4.4</initTimeSeconds>
+      <endTimeSeconds>6.53</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Die1</animType>
+      <initTimeSeconds>6.53</initTimeSeconds>
+      <endTimeSeconds>9.9</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+    <SkeletalAnimInfoData>
+      <animType>Groggy1</animType>
+      <initTimeSeconds>9.9</initTimeSeconds>
+      <endTimeSeconds>11.66</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>GetHit1</animType>
+      <initTimeSeconds>11.66</initTimeSeconds>
+      <endTimeSeconds>12.36</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Run</animType>
+      <initTimeSeconds>12.4</initTimeSeconds>
+      <endTimeSeconds>13.2</endTimeSeconds>
+    </SkeletalAnimInfoData>
+
+    <SkeletalAnimInfoData>
+      <animType>Walk</animType>
+      <initTimeSeconds>13.3</initTimeSeconds>
+      <endTimeSeconds>14.3</endTimeSeconds>
+    </SkeletalAnimInfoData>
+    
+  </SkeletalAnimInfoDataList>
+</MonsterData>
